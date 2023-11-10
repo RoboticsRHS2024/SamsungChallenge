@@ -1,5 +1,10 @@
 ourMap.jss
-function help() {
-var example = "sup";
-return example; 
+function giveLocation() {
+var startLocation = document.getElementByID("Your Location:").value;
+var output = whereToGo(input);
 }
+function whereToGo(input) {
+var result = " Go to Reading from " + input;
+return result;
+}
+
