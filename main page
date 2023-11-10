@@ -15,8 +15,16 @@ background-color: "red";
  }
 
 </style>
+<head> 
+<titel> Robotics Website </title> 
+<script src = "ourmap.jss"> </script>
+</head>
 <body> 
   <h1> Bruh </h1> 
+  <label for="Your Location: "> Your Location: </label>
+<input type="text" id ="Your Location: ">
+<button onclick="giveLocation()"> Search </button>
+<p id = "output"> </p>
   <p> This is a page dedicated to mapping RHS and making passes. </p>
 
 <footer> <p> ReadingRobotics2023 </p> </footer> 
