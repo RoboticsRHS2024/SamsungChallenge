@@ -4,18 +4,22 @@ body {
   text-align: center; 
 }
  h1 {
-   
-   padding = 20px;
+background-color: "red";
+   text-align: center;
+   padding: 20px;
+ }
+footer {
+background-color: "red";
+   text-align: center;
+   padding: 20px;
  }
 
 </style>
+<body> 
+  <h1> Bruh </h1> 
+  <p> This is a page dedicated to mapping RHS and making passes. </p>
 
-
-
-
-
-
-
-
+<footer> <p> ReadingRobotics2023 </p> </footer> 
+</body> 
 
 </html>
