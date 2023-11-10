@@ -1,10 +1,12 @@
 ourMap.jss
 function giveLocation() {
 var startLocation = document.getElementByID("Your Location:").value;
-var output = whereToGo(input);
+var output = whereToGo(Your Location: );
+document.getElementById("Your Location: ").text;
+Content = output;
 }
-function whereToGo(input) {
-var result = " Go to Reading from " + input;
+function whereToGo(YourLocation: ) {
+var result = " Go to Reading from " + Your Location: ;
 return result;
 }
 
