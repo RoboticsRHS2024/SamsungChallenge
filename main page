@@ -17,7 +17,7 @@ background-color: "red";
 </style>
 <head> 
 <titel> Robotics Website </title> 
-<script src = "ourMap.js"> </script>
+<script src = "script.js"> </script>
 </head>
 
   <h1> Bruh </h1> 
