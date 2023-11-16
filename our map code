@@ -1,12 +1,10 @@
-ourMap.jss
-function giveLocation() {
-var startLocation = document.getElementByID("Your Location:").value;
-var output = whereToGo(Your Location: );
-document.getElementById("Your Location: ").text;
-Content = output;
+function manipulateString() { 
+    var input = document.getElementById("inputString").value; 
+    var output = manipulate(input); 
+    document.getElementById("output").text
+    Content = output;
+} 
+function manipulate(input) { // Perform string manipulation here 
+    var result = "Manipulated: " + input; 
+    return result; 
 }
-function whereToGo(YourLocation: ) {
-var result = " Go to Reading from " + Your Location: ;
-return result;
-}
-
